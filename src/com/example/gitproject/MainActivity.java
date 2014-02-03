@@ -32,6 +32,11 @@ public class MainActivity extends Activity {
 					@Override
 					public void onClick(View v) {
 						Toast.makeText(getApplicationContext(), "ZMIENIAM KOLOR!", 1).show();
+						 View someView = findViewById(R.id.mainLayout);
+
+						  View root = someView.getRootView();
+
+						  root.setBackgroundColor(getResources().getColor(R.color.nice));
 					}
 				});
 	}
