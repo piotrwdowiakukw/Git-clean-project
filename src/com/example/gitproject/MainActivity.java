@@ -10,6 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 
 	Button b;
+	Button bKolor;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,15 @@ public class MainActivity extends Activity {
 				Toast.makeText(getApplicationContext(), "B£YSK!", 1).show();
 			}
 		});
+		
+		bKolor = (Button) findViewById(R.id.button2);
+				b.setOnClickListener(new View.OnClickListener() {
+					
+					@Override
+					public void onClick(View v) {
+						Toast.makeText(getApplicationContext(), "ZMIENIAM KOLOR!", 1).show();
+					}
+				});
 	}
 
 	@Override
