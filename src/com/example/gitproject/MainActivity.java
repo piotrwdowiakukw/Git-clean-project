@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Toast.makeText(getApplicationContext(), "B£YSK!", 1).show();
+				Toast.makeText(getApplicationContext(), "POTÊ¯NY B£YSK!!!", 1).show();
 			}
 		});
 		
