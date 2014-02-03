@@ -22,12 +22,12 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Toast.makeText(getApplicationContext(), "B£YSK!", 1).show();
+				Toast.makeText(getApplicationContext(), "POTÊ¯NY B£YSK!!!", 1).show();
 			}
 		});
 		
 		bKolor = (Button) findViewById(R.id.button2);
-				b.setOnClickListener(new View.OnClickListener() {
+				bKolor.setOnClickListener(new View.OnClickListener() {
 					
 					@Override
 					public void onClick(View v) {
