@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-	Button b;
+	Button bPoterznyBlysk;
 	Button bKolor;
 	
 	@Override
@@ -17,8 +17,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		b = (Button) findViewById(R.id.button1);
-		b.setOnClickListener(new View.OnClickListener() {
+		bPoterznyBlysk = (Button) findViewById(R.id.button1);
+		bPoterznyBlysk.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
